@@ -36,28 +36,31 @@ replace (
 )
 
 require (
-	github.com/containerd/console v1.0.2
-	github.com/containerd/containerd v1.5.0
+	github.com/containerd/console v1.0.3
+	github.com/containerd/containerd v1.7.2
 	github.com/containerd/typeurl v1.0.2
-	github.com/docker/distribution v2.7.1+incompatible
-	github.com/docker/docker-credential-helpers v0.6.3
-	github.com/docker/go-units v0.4.0
-	github.com/gogo/googleapis v1.4.0
+	github.com/docker/distribution v2.8.2+incompatible
+	github.com/docker/docker-credential-helpers v0.7.0
+	github.com/docker/go-units v0.5.0
+	github.com/gogo/googleapis v1.4.1
 	github.com/gogo/protobuf v1.3.2
-	github.com/golang/protobuf v1.4.3
-	github.com/moby/buildkit v0.8.3
-	github.com/moby/term v0.0.0-20200915141129-7f0af18e79f2
-	github.com/opencontainers/image-spec v1.0.1
+	github.com/golang/protobuf v1.5.3
+	github.com/moby/buildkit v0.12.5
+	github.com/moby/term v0.0.0-20210610120745-9d4ed1856297
+	github.com/opencontainers/image-spec v1.1.0-rc3
 	github.com/pkg/errors v0.9.1
-	github.com/rancher/wrangler v0.7.3-0.20201002224307-4303c423125a
+	github.com/rancher/wrangler v0.7.4-security1
 	github.com/rancher/wrangler-cli v0.0.0-20210217230406-95cfa275f52f
-	github.com/sirupsen/logrus v1.7.0
-	github.com/spf13/cobra v1.1.1
-	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	google.golang.org/grpc v1.33.2
-	k8s.io/api v0.20.6
-	k8s.io/apimachinery v0.20.6
+	github.com/sirupsen/logrus v1.9.3
+	github.com/spf13/cobra v1.6.1
+	github.com/stretchr/testify v1.8.4 // indirect
+	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/sync v0.3.0
+	google.golang.org/grpc v1.58.3
+	gotest.tools/v3 v3.5.0 // indirect
+	k8s.io/api v0.26.2
+	k8s.io/apimachinery v0.26.2
 	k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible
-	k8s.io/cri-api v0.20.6
+	k8s.io/cri-api v0.27.1
 	k8s.io/kubernetes v1.13.0
 )
